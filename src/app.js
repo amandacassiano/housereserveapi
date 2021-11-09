@@ -10,7 +10,7 @@ class App {
   constructor(){
     this.server = express();
 
-    mongoose.connect('',{
+    mongoose.connect(' ',{
       useNewUrlParser:true,
       useUnifiedTopology:true,
     });
